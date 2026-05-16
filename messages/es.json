@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "Junior Pezantes | Full Stack Developer",
+    "description": "Especialista en Vue, Node.js y Arquitectura de Datos. Explora mis proyectos y habilidades."
+  },
+  "navigation": {
+    "home": "Inicio",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "skills": "Habilidades",
+    "certifications": "Certificaciones",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "greeting": "Hola, soy",
+    "title": "Ingeniero de Software",
+    "subtitle": "Especializado en aplicaciones empresariales y sistemas complejos",
+    "experience": "4+ años de experiencia",
+    "cta": "Explora mi trabajo",
+    "cv": "Ver CV"
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "subtitle": "Casos de estudio de aplicaciones empresariales que he desarrollado",
+    "technologies": "Tecnologías:",
+    "link": "Ver proyecto",
+    "github": "GitHub",
+    "viewDetails": "Ver detalles",
+    "goToProject": "Ir al proyecto",
+    "comingSoon": "Próximamente",
+    "disabled": "Deshabilitado"
+  },
+  "experience": {
+    "title": "Experiencia Laboral",
+    "subtitle": "Mi recorrido profesional en el desarrollo de software empresarial",
+    "current": "Actualmente"
+  },
+  "skills": {
+    "title": "Habilidades Técnicas",
+    "subtitle": "Tecnologías y herramientas que domino",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Bases de Datos",
+    "tools": "Herramientas",
+    "softSkills": "Habilidades Blandas",
+    "otherLanguages": "Otros Lenguajes",
+    "languages": "Idiomas"
+  },
+  "certifications": {
+    "title": "Certificaciones y Educación",
+    "subtitle": "Formación académica y certificaciones profesionales",
+    "education": "Educación",
+    "certifications": "Certificaciones"
+  },
+  "contact": {
+    "title": "Ponte en Contacto",
+    "subtitle": "Estaré feliz de hablar sobre oportunidades o colaboraciones",
+    "name": "Nombre",
+    "email": "Correo",
+    "message": "Mensaje",
+    "send": "Enviar",
+    "sending": "Enviando...",
+    "successSimple": "Mensaje enviado exitosamente",
+    "error": "Error al enviar el mensaje",
+    "social": "Redes Sociales",
+    "success": {
+      "title": "¡Gracias por tu mensaje!",
+      "message": "Hemos recibido tu correo y nos pondremos en contacto muy pronto.",
+      "response": "Usualmente respondemos en las próximas 24-48 horas.",
+      "close": "Entendido"
+    }
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados",
+    "made": "Hecho",
+    "by": "por"
+  },
+  "skillNames": {
+    "Liderazgo": "Liderazgo",
+    "Comunicación Efectiva": "Comunicación Efectiva",
+    "Mentoría": "Mentoría",
+    "Resolución de Problemas": "Resolución de Problemas",
+    "Trabajo en Equipo": "Trabajo en Equipo",
+    "Pensamiento Crítico": "Pensamiento Crítico",
+    "Gestión de Proyectos": "Gestión de Proyectos",
+    "Presentaciones": "Presentaciones",
+    "Español (Nativo)": "Español (Nativo)",
+    "Inglés - B1": "Inglés - B1"
+  }
+}

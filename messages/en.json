@@ -1,0 +1,90 @@
+{
+  "metadata": {
+    "title": "[Your Name] | Full Stack Developer",
+    "description": "Specialist in Vue, Node.js, and Data Architecture. Explore my projects and skills."
+  },
+  "navigation": {
+    "home": "Home",
+    "projects": "Projects",
+    "experience": "Experience",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "title": "Software Engineer",
+    "subtitle": "Specialized in enterprise applications and complex systems",
+    "experience": "4+ years of experience",
+    "cta": "Explore my work",
+    "cv": "View Resume"
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "subtitle": "Case studies of enterprise applications I've developed",
+    "technologies": "Technologies:",
+    "link": "View project",
+    "github": "GitHub",
+    "viewDetails": "View details",
+    "goToProject": "Go to project",
+    "comingSoon": "Coming soon",
+    "disabled": "Disabled"
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "My professional journey in enterprise software development",
+    "current": "Current"
+  },
+  "skills": {
+    "title": "Technical Skills",
+    "subtitle": "Technologies and tools I master",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "tools": "Tools",
+    "softSkills": "Soft Skills",
+    "otherLanguages": "Other Languages",
+    "languages": "Languages"
+  },
+  "certifications": {
+    "title": "Certifications and Education",
+    "subtitle": "Academic background and professional certifications",
+    "education": "Education",
+    "certifications": "Certifications"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "subtitle": "I'd be happy to talk about opportunities or collaborations",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "sending": "Sending...",
+    "successSimple": "Message sent successfully",
+    "error": "Error sending message",
+    "social": "Social Networks",
+    "success": {
+      "title": "Thank you for your message!",
+      "message": "We have received your email and will get back to you very soon.",
+      "response": "We usually respond within the next 24-48 hours.",
+      "close": "Got it"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved",
+    "made": "Made with",
+    "by": "by"
+  },
+  "skillNames": {
+    "Liderazgo": "Leadership",
+    "Comunicación Efectiva": "Effective Communication",
+    "Mentoría": "Mentoring",
+    "Resolución de Problemas": "Problem Solving",
+    "Trabajo en Equipo": "Teamwork",
+    "Pensamiento Crítico": "Critical Thinking",
+    "Gestión de Proyectos": "Project Management",
+    "Presentaciones": "Presentations",
+    "Español (Nativo)": "Spanish (Native)",
+    "Inglés - B1": "English - B1"
+  }
+}
