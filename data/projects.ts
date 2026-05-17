@@ -321,7 +321,7 @@ export const projects: Project[] = [
     descriptionEn: 'Financial product page focused on secure investment.',
     descriptionLongEs: 'Plataforma de producto para Interseguro, con contenidos financieros y experiencia de usuario optimizada.',
     descriptionLongEn: 'Product platform for Interseguro, with financial content and optimized UX.',
-    technologies: ['Vue.js', 'Pinia', 'Swiper' ,'SweetAlert2', 'Nuxt.js', 'Tailwind'],
+    technologies: ['Vue.js', 'Pinia', 'Swiper', 'SweetAlert2', 'Nuxt.js', 'Tailwind'],
     image: '/projects/interseguro-inversion-segura.png',
     mobileImage: '/projects/interseguro-mobile.png',
     images: ['/projects/interseguro-inversion-segura.png'],
@@ -360,7 +360,7 @@ export const projects: Project[] = [
     descriptionEn: 'Ticket sales and reservation site with dynamic user experience.',
     descriptionLongEs: 'Proyecto web para venta de boletos y reservas, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for ticket sales and reservations, focused on speed and usability.',
-    technologies: ['Vue.js', 'Vuetify','GSAP','Swiper.js','Font Awesome'],
+    technologies: ['Vue.js', 'Vuetify', 'GSAP', 'Swiper.js', 'Font Awesome'],
     image: '/projects/tickets-lima.png',
     mobileImage: '/projects/tickets-lima-mobile.png',
     images: ['/projects/tickets-lima.png'],
@@ -391,7 +391,7 @@ export const projects: Project[] = [
     status: 'finished',
     year: 2022,
   },
-    {
+  {
     id: 'ods',
     titleEs: 'ODS',
     titleEn: 'ODS',
@@ -399,7 +399,7 @@ export const projects: Project[] = [
     descriptionEn: 'Platform for the fulfillment of the Sustainable Development Goals.',
     descriptionLongEs: 'Proyecto web para el cumplimiento de los Objetivos de Desarrollo Sostenible, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for the fulfillment of the Sustainable Development Goals, focused on speed and usability.',
-    technologies: ['Php', 'Vue.js','Javascript','Google Analytics','MySQL'],
+    technologies: ['Php', 'Vue.js', 'Javascript', 'Google Analytics', 'MySQL'],
     image: '/projects/ods.png',
     mobileImage: '/projects/ods-mobile.png',
     images: ['/projects/ods.png'],
@@ -430,7 +430,7 @@ export const projects: Project[] = [
     status: 'disabled',
     year: 2022,
   },
-      {
+  {
     id: 'gobierno-abierto',
     titleEs: 'GOBIERNO ABIERTO Y COMPROMISOS DEL ALCALDE',
     titleEn: 'OPEN GOVERNMENT AND MAYOR COMMITMENTS',
@@ -438,7 +438,7 @@ export const projects: Project[] = [
     descriptionEn: 'Platform for the fulfillment of the Sustainable Development Goals.',
     descriptionLongEs: 'Proyecto web para el cumplimiento de los Objetivos de Desarrollo Sostenible, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for the fulfillment of the Sustainable Development Goals, focused on speed and usability.',
-    technologies: ['Php', 'Vue.js','Javascript','Google Analytics','MySQL'],
+    technologies: ['Php', 'Vue.js', 'Javascript', 'Google Analytics', 'MySQL'],
     image: '/projects/gobierno-abierto.png',
     mobileImage: '/projects/gobierno-abierto-mobile.png',
     images: ['/projects/gobierno-abierto.png'],
@@ -468,5 +468,44 @@ export const projects: Project[] = [
     link: 'https://www.munlima.gob.pe/gobierno-abierto/compromisos',
     status: 'disabled',
     year: 2022,
+  },
+  {
+    id: 'luminaria',
+    titleEs: 'Web de venta de luminarias',
+    titleEn: 'Lighting Sales Website',
+    descriptionEs: 'Landing page para venta de luminarias con diseño responsivo y enfoque en conversión.',
+    descriptionEn: 'Landing page for lighting sales with responsive design and conversion focus.',
+    descriptionLongEs: 'Sitio web para venta de luminarias con diseño responsivo y enfoque en conversión.',
+    descriptionLongEn: 'Website for lighting sales with responsive design and conversion focus.',
+    technologies: ['React', 'Swiper', 'Tailwind'],
+    image: '/projects/luminaria.png',
+    mobileImage: '/projects/luminaria-mobile.png',
+    images: ['/projects/luminaria.png'],
+    features: [
+      {
+        titleEs: 'Catálogo Visual Impactante',
+        titleEn: 'Stunning Visual Showroom',
+        descriptionEs: 'Exhibición de luminarias en alta resolución con filtros avanzados por estilo y ambiente.',
+        descriptionEn: 'High-resolution lighting display with advanced filters by style and environment.',
+        icon: 'Lightbulb'
+      },
+      {
+        titleEs: 'Diseño Enfocado en Conversión',
+        titleEn: 'Conversion-Focused Design',
+        descriptionEs: 'Secciones estratégicas y llamadas a la acción optimizadas para maximizar las ventas.',
+        descriptionEn: 'Strategic sections and optimized calls to action to maximize sales.',
+        icon: 'ShoppingBag'
+      },
+      {
+        titleEs: 'Experiencia Fluida y Responsiva',
+        titleEn: 'Seamless Responsive Experience',
+        descriptionEs: 'Navegación rápida y adaptada a móviles usando sliders dinámicos con Swiper y Tailwind.',
+        descriptionEn: 'Fast, mobile-friendly navigation using dynamic sliders with Swiper and Tailwind.',
+        icon: 'Smartphone'
+      }
+    ],
+    link: 'https://luminaria-two.vercel.app/',
+    status: 'finished',
+    year: 2025,
   },
 ];

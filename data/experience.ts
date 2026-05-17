@@ -22,7 +22,7 @@ export const experience: Experience[] = [
     descriptionEs: 'Desarrollo integral de aplicaciones web modernas utilizando Astro.js y Vue.js, logrando interfaces altamente optimizadas (Core Web Vitals). Gestión de proyectos de punta a punta, desde el diseño de la base de datos hasta la implementación de la lógica de negocio y el despliegue. Asesoría técnica a clientes para la digitalización de procesos, integrando herramientas de automatización.',
     descriptionEn: 'Comprehensive development of modern web applications using Astro.js and Vue.js, achieving highly optimized interfaces (Core Web Vitals). End-to-end project management, from database design to business logic implementation and deployment. Technical advisory to clients for process digitization, integrating automation tools.',
     startDate: '2023-05',
-    endDate: '2024-11',
+    endDate: '2025-01',
     technologies: ['Astro.js', 'Vue.js', 'Laravel', 'PHP', 'JavaScript', 'HTML', 'CSS'],
   },
   {
