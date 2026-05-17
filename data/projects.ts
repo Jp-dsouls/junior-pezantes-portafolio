@@ -508,4 +508,43 @@ export const projects: Project[] = [
     status: 'finished',
     year: 2025,
   },
+  {
+    id: 'viajes',
+    titleEs: 'Mejoras en la Web de seguro de viajes',
+    titleEn: 'Improvements on the Travel Insurance Website',
+    descriptionEs: 'Modernización del backend y optimización del sistema de cupones y márgenes comerciales.',
+    descriptionEn: 'Backend modernization and optimization of the coupon and commercial margin systems.',
+    descriptionLongEs: 'Implementación de mejoras críticas en la plataforma, incluyendo la modernización de la arquitectura del backend, el desarrollo de un módulo de cupones de descuento y la optimización del cálculo de márgenes comerciales.',
+    descriptionLongEn: 'Implementation of critical platform improvements, including backend architecture modernization, the development of a discount coupon module, and optimization of commercial margin calculations.',
+    technologies: ['Vue', 'Pug', 'Sass'],
+    image: '/projects/viajes.png',
+    mobileImage: '/projects/viajes-mobile.png',
+    images: ['/projects/viajes.png'],
+    features: [
+      {
+        titleEs: 'Modernización del Backend',
+        titleEn: 'Backend Modernization',
+        descriptionEs: 'Refactorización y actualización de la lógica del servidor para mejorar el rendimiento y la escalabilidad del sitio con Vue.',
+        descriptionEn: 'Refactoring and updating server-side logic to improve site performance and scalability with Vue.',
+        icon: 'Cpu'
+      },
+      {
+        titleEs: 'Módulo de Cupones Dinámicos',
+        titleEn: 'Dynamic Coupons Module',
+        descriptionEs: 'Implementación de un sistema flexible para la gestión, aplicación y validación de cupones de descuento en el checkout.',
+        descriptionEn: 'Implementation of a flexible system for managing, applying, and validating discount coupons during checkout.',
+        icon: 'Tag'
+      },
+      {
+        titleEs: 'Optimización de Márgenes',
+        titleEn: 'Margin Optimization',
+        descriptionEs: 'Ajuste y precisión en el cálculo de márgenes comerciales y costos de las pólizas de seguro de viajes.',
+        descriptionEn: 'Fine-tuning and accuracy in commercial margin calculations and travel insurance policy costs.',
+        icon: 'TrendingUp'
+      }
+    ],
+    link: 'https://www.interseguro.pe/viajes',
+    status: 'finished',
+    year: 2025,
+  },
 ];
