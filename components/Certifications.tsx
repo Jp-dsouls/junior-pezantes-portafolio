@@ -171,7 +171,7 @@ export function Certifications() {
                                 {item.date}
                               </p>
                             </div>
-                            {item.url && (
+                            {/* {item.url && (
                               <a
                                 href={item.url}
                                 target="_blank"
@@ -180,7 +180,7 @@ export function Certifications() {
                               >
                                 <ExternalLink className="h-4 w-4" />
                               </a>
-                            )}
+                            )} */}
                           </div>
                         </motion.div>
                       </CarouselItem>
