@@ -13,6 +13,8 @@ export function Contact() {
   const t = useTranslations();
   const [isLoading, setIsLoading] = useState(false);
   const [showModal, setShowModal] = useState(false);
+  const [resultMessage, setResultMessage] = useState<string | null>(null);
+  const [isErrorMessage, setIsErrorMessage] = useState(false);
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -32,22 +34,53 @@ export function Contact() {
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsLoading(true);
+    setResultMessage(null);
+    setIsErrorMessage(false);
+
+    const form = e.currentTarget;
+    const formDataToSend = new FormData(form);
+    const accessKey = process.env.NEXT_PUBLIC_WEB3FORMS_ACCESS_KEY;
+
+    if (!accessKey) {
+      setResultMessage('Falta la clave de Web3Forms. Verifica la configuración.');
+      setIsErrorMessage(true);
+      setIsLoading(false);
+      return;
+    }
+
+    formDataToSend.append('access_key', accessKey);
+    formDataToSend.append('subject', `Nuevo mensaje de contacto de ${formData.name}`);
+    formDataToSend.append('from_name', 'Portafolio Contacto');
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(formData),
+        body: formDataToSend,
       });
 
-      if (response.ok) {
+      let result: any = null;
+      try {
+        result = await response.json();
+      } catch (jsonError) {
+        console.error('Web3Forms response parse error:', jsonError);
+      }
+
+      if (response.ok && result?.success) {
         setShowModal(true);
+        setResultMessage(t('contact.successSimple'));
+        setIsErrorMessage(false);
         setFormData({ name: '', email: '', message: '' });
+        form.reset();
+      } else {
+        setResultMessage(
+          result?.message || result?.error || t('contact.error')
+        );
+        setIsErrorMessage(true);
       }
     } catch (error) {
       console.error('Error:', error);
+      setResultMessage('Error de red. Intenta nuevamente más tarde.');
+      setIsErrorMessage(true);
     } finally {
       setIsLoading(false);
     }
@@ -124,6 +157,16 @@ export function Contact() {
                 t('contact.send')
               )}
             </Button>
+
+            {resultMessage && (
+              <p
+                className={`mt-3 text-sm ${
+                  isErrorMessage ? 'text-rose-400' : 'text-emerald-400'
+                }`}
+              >
+                {resultMessage}
+              </p>
+            )}
           </form>
         </motion.div>
 
