@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     siteName: 'Portafolio Profesional',
     images: [
       {
-        url: '/og-image.svg',
+        url: '/og-image.webp',
         width: 1200,
         height: 630,
         alt: 'Junior Pezantes | Full Stack Developer',
@@ -41,25 +41,25 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Junior Pezantes | Full Stack Developer',
     description: 'Especialista en Vue, Node.js y Arquitectura de Datos. Explora mis proyectos y habilidades.',
-    images: ['/og-image.svg'],
+    images: ['/og-image.webp'],
   },
   generator: 'v0.app',
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
+        url: '/icon-light-32x32.webp',
         media: '(prefers-color-scheme: light)',
       },
       {
-        url: '/icon-dark-32x32.png',
+        url: '/icon-dark-32x32.webp',
         media: '(prefers-color-scheme: dark)',
       },
       {
-        url: '/icon.svg',
+        url: '/icon.webp',
         type: 'image/svg+xml',
       },
     ],
-    apple: '/apple-icon.png',
+    apple: '/apple-icon.webp',
   },
 }
 

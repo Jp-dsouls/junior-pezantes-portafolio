@@ -40,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
       url: `/${locale}`,
       images: [
         {
-          url: '/og-image.svg',
+          url: '/og-image.webp',
           width: 1200,
           height: 630,
           alt: metadata.title,
@@ -50,7 +50,7 @@ export async function generateMetadata({ params }: { params: Promise<{ lang: str
     twitter: {
       title: metadata.title,
       description: metadata.description,
-      images: ['/og-image.svg'],
+      images: ['/og-image.webp'],
     },
   };
 }

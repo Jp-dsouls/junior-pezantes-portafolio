@@ -10,9 +10,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Sitio web de portafolio para fotógrafo, con galerías visuales y animaciones front-end. Incluye integración de Bootstrap, Font Awesome y efectos de entrada con Animate.css.',
     descriptionLongEn: 'Photography portfolio website with visual galleries and front-end animations. Includes Bootstrap, Font Awesome and Animate.css entry effects.',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Font Awesome', 'Animate.css'],
-    image: '/projects/christian-photography.png',
-    mobileImage: '/projects/christian-photography-mobile.png',
-    images: ['/projects/christian-photography.png'],
+    image: '/projects/christian-photography.webp',
+    mobileImage: '/projects/christian-photography-mobile.webp',
+    images: ['/projects/christian-photography.webp'],
     features: [
       {
         titleEs: 'Galería Dinámica',
@@ -49,9 +49,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Aplicación web educativa que muestra el funcionamiento del método de cifrado Julio César. Incluye validación de texto, transformación dinámica y estilos claros para facilitar el aprendizaje.',
     descriptionLongEn: 'Educational web app showcasing the Julius Caesar cipher. Includes text validation, dynamic transformation and clean styles to facilitate learning.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: '/projects/encrypt-julio-cesar.png',
-    mobileImage: '/projects/encrypt-julio-cesar-mobile.png',
-    images: ['/projects/encrypt-julio-cesar.png'],
+    image: '/projects/encrypt-julio-cesar.webp',
+    mobileImage: '/projects/encrypt-julio-cesar-mobile.webp',
+    images: ['/projects/encrypt-julio-cesar.webp'],
     features: [
       {
         titleEs: 'Cifrado en Tiempo Real',
@@ -88,9 +88,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Proyecto de cifrado histórico que reproduce el comportamiento de la máquina Enigma. Permite a los usuarios cifrar y descifrar mensajes para entender cómo funcionaba el algoritmo.',
     descriptionLongEn: 'Historical cipher project replicating the Enigma machine behavior. Allows users to encrypt and decrypt messages to understand the algorithm.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: '/projects/encrypt-enigma.png',
-    mobileImage: '/projects/encrypt-enigma-mobile.png',
-    images: ['/projects/encrypt-enigma.png'],
+    image: '/projects/encrypt-enigma.webp',
+    mobileImage: '/projects/encrypt-enigma-mobile.webp',
+    images: ['/projects/encrypt-enigma.webp'],
     features: [
       {
         titleEs: 'Simulación de Rotores',
@@ -127,9 +127,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Sitio web de restaurante construido con HTML, CSS y JavaScript. Presenta un diseño limpio, sección de menú y botones destacados para reservas y contacto.',
     descriptionLongEn: 'Restaurant website built with HTML, CSS and JavaScript. Features a clean design, menu section and prominent buttons for reservations and contact.',
     technologies: ['HTML', 'CSS', 'JavaScript'],
-    image: '/projects/landingpage-cocina.png',
-    mobileImage: '/projects/landingpage-cocina-mobile.png',
-    images: ['/projects/landingpage-cocina.png'],
+    image: '/projects/landingpage-cocina.webp',
+    mobileImage: '/projects/landingpage-cocina-mobile.webp',
+    images: ['/projects/landingpage-cocina.webp'],
     features: [
       {
         titleEs: 'Menú Interactivo',
@@ -166,9 +166,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Página web de presentación para Huayra Mistika con secciones de servicios, equipo y contacto. El proyecto prioriza la claridad visual y la accesibilidad del contenido.',
     descriptionLongEn: 'Presentation website for Huayra Mistika with services, team and contact sections. The project prioritizes visual clarity and content accessibility.',
     technologies: ['Font Awesome', 'Bootstrap', 'Jquery', 'Isotope'],
-    image: '/projects/huayra-mistika.png',
-    mobileImage: '/projects/huayra-mistika-mobile.png',
-    images: ['/projects/huayra-mistika.png'],
+    image: '/projects/huayra-mistika.webp',
+    mobileImage: '/projects/huayra-mistika-mobile.webp',
+    images: ['/projects/huayra-mistika.webp'],
     features: [
       {
         titleEs: 'Filtrado de Servicios',
@@ -205,9 +205,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Aplicación web de inventarios que permite visualizar y gestionar productos, con diseño basado en Bootstrap y funcionalidades de administración. Incluye iconos de Font Awesome y tablas interactivas.',
     descriptionLongEn: 'Inventory web app that allows viewing and managing products, built with Bootstrap and admin-friendly layout. Includes Font Awesome icons and interactive tables.',
     technologies: ['Ionicons', 'SweetAlert2', 'Google Font API', 'Moment.js', 'Font Awesome', 'Jquery UI', 'Jquery', 'Chart.js', 'Bootstrap'],
-    image: '/projects/inventory-system.png',
-    mobileImage: '/projects/inventory-system-mobile.png',
-    images: ['/projects/inventory-system.png'],
+    image: '/projects/inventory-system.webp',
+    mobileImage: '/projects/inventory-system-mobile.webp',
+    images: ['/projects/inventory-system.webp'],
     features: [
       {
         titleEs: 'Dashboard Administrativo',
@@ -244,9 +244,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Página de presentación para bar con información de carta, ubicación y contacto. Construida con Tailwind CSS y Astro para una experiencia rápida y fluida.',
     descriptionLongEn: 'Presentation page for a bar with menu information, location and contact. Built with Tailwind CSS and Astro for a fast, smooth experience.',
     technologies: ['Astro', 'Tailwind', 'JavaScript'],
-    image: '/projects/resto-bar.png',
-    mobileImage: '/projects/resto-bar-mobile.png',
-    images: ['/projects/resto-bar.png'],
+    image: '/projects/resto-bar.webp',
+    mobileImage: '/projects/resto-bar-mobile.webp',
+    images: ['/projects/resto-bar.webp'],
     features: [
       {
         titleEs: 'Carga Ultrarrápida',
@@ -283,9 +283,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Proyecto web para la Empresa Municipal Inmobiliaria de Lima, con foco en funcionalidades institucionales y administración de contenidos.',
     descriptionLongEn: 'Website project for Empresa Municipal Inmobiliaria de Lima, focused on institutional content and management features.',
     technologies: ['PHP', 'GSAP', 'Font Awesome', 'Cloudflare', 'Swiper', 'Jquery', 'Bootstrap', 'ApexCharts'],
-    image: '/projects/emi-lima.png',
-    mobileImage: '/projects/emi-lima-mobile.png',
-    images: ['/projects/emi-lima.png'],
+    image: '/projects/emi-lima.webp',
+    mobileImage: '/projects/emi-lima-mobile.webp',
+    images: ['/projects/emi-lima.webp'],
     features: [
       {
         titleEs: 'Transiciones Premium',
@@ -322,9 +322,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Plataforma de producto para Interseguro, con contenidos financieros y experiencia de usuario optimizada.',
     descriptionLongEn: 'Product platform for Interseguro, with financial content and optimized UX.',
     technologies: ['Vue.js', 'Pinia', 'Swiper', 'SweetAlert2', 'Nuxt.js', 'Tailwind'],
-    image: '/projects/interseguro-inversion-segura.png',
-    mobileImage: '/projects/interseguro-mobile.png',
-    images: ['/projects/interseguro-inversion-segura.png'],
+    image: '/projects/interseguro-inversion-segura.webp',
+    mobileImage: '/projects/interseguro-mobile.webp',
+    images: ['/projects/interseguro-inversion-segura.webp'],
     features: [
       {
         titleEs: 'Inversión Segura',
@@ -361,9 +361,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Proyecto web para venta de boletos y reservas, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for ticket sales and reservations, focused on speed and usability.',
     technologies: ['Vue.js', 'Vuetify', 'GSAP', 'Swiper.js', 'Font Awesome'],
-    image: '/projects/tickets-lima.png',
-    mobileImage: '/projects/tickets-lima-mobile.png',
-    images: ['/projects/tickets-lima.png'],
+    image: '/projects/tickets-lima.webp',
+    mobileImage: '/projects/tickets-lima-mobile.webp',
+    images: ['/projects/tickets-lima.webp'],
     features: [
       {
         titleEs: 'E-commerce de Tickets',
@@ -400,9 +400,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Proyecto web para el cumplimiento de los Objetivos de Desarrollo Sostenible, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for the fulfillment of the Sustainable Development Goals, focused on speed and usability.',
     technologies: ['Php', 'Vue.js', 'Javascript', 'Google Analytics', 'MySQL'],
-    image: '/projects/ods.png',
-    mobileImage: '/projects/ods-mobile.png',
-    images: ['/projects/ods.png'],
+    image: '/projects/ods.webp',
+    mobileImage: '/projects/ods-mobile.webp',
+    images: ['/projects/ods.webp'],
     features: [
       {
         titleEs: 'Dashboard Interactivo',
@@ -439,9 +439,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Proyecto web para el cumplimiento de los Objetivos de Desarrollo Sostenible, con enfoque en velocidad y usabilidad.',
     descriptionLongEn: 'Web project for the fulfillment of the Sustainable Development Goals, focused on speed and usability.',
     technologies: ['Php', 'Vue.js', 'Javascript', 'Google Analytics', 'MySQL'],
-    image: '/projects/gobierno-abierto.png',
-    mobileImage: '/projects/gobierno-abierto-mobile.png',
-    images: ['/projects/gobierno-abierto.png'],
+    image: '/projects/gobierno-abierto.webp',
+    mobileImage: '/projects/gobierno-abierto-mobile.webp',
+    images: ['/projects/gobierno-abierto.webp'],
     features: [
       {
         titleEs: 'Dashboard Interactivo',
@@ -478,9 +478,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Sitio web para venta de luminarias con diseño responsivo y enfoque en conversión.',
     descriptionLongEn: 'Website for lighting sales with responsive design and conversion focus.',
     technologies: ['React', 'Swiper', 'Tailwind'],
-    image: '/projects/luminaria.png',
-    mobileImage: '/projects/luminaria-mobile.png',
-    images: ['/projects/luminaria.png'],
+    image: '/projects/luminaria.webp',
+    mobileImage: '/projects/luminaria-mobile.webp',
+    images: ['/projects/luminaria.webp'],
     features: [
       {
         titleEs: 'Catálogo Visual Impactante',
@@ -517,9 +517,9 @@ export const projects: Project[] = [
     descriptionLongEs: 'Implementación de mejoras críticas en la plataforma, incluyendo la modernización de la arquitectura del backend, el desarrollo de un módulo de cupones de descuento y la optimización del cálculo de márgenes comerciales.',
     descriptionLongEn: 'Implementation of critical platform improvements, including backend architecture modernization, the development of a discount coupon module, and optimization of commercial margin calculations.',
     technologies: ['Vue', 'Pug', 'Sass'],
-    image: '/projects/viajes.png',
-    mobileImage: '/projects/viajes-mobile.png',
-    images: ['/projects/viajes.png'],
+    image: '/projects/viajes.webp',
+    mobileImage: '/projects/viajes-mobile.webp',
+    images: ['/projects/viajes.webp'],
     features: [
       {
         titleEs: 'Modernización del Backend',
