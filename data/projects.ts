@@ -2,6 +2,45 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: 'google-certification-questions',
+    titleEs: 'Simulador Google Cloud',
+    titleEn: 'Google Cloud Simulator',
+    descriptionEs: 'Simulador de preguntas de certificación Google Cloud con módulos, progreso y práctica guiada.',
+    descriptionEn: 'Google Cloud certification question simulator with modules, progress tracking and guided practice.',
+    descriptionLongEs: 'Aplicación web tipo simulador GLAM para practicar preguntas de certificación Google Cloud. Organiza el contenido por secciones y módulos, muestra el progreso en tiempo real y permite repasar opciones con una interfaz oscura y responsive.',
+    descriptionLongEn: 'GLAM-style web simulator to practice Google Cloud certification questions. Organizes content by sections and modules, shows real-time progress and lets users review options through a dark, responsive interface.',
+    technologies: ['React', 'Tailwind CSS'],
+    image: '/projects/google-certification-questions.webp',
+    mobileImage: '/projects/google-certification-questions-mobile.webp',
+    images: ['/projects/google-certification-questions.webp'],
+    features: [
+      {
+        titleEs: 'Módulos por Sección',
+        titleEn: 'Section Modules',
+        descriptionEs: 'Preguntas organizadas por secciones y módulos del examen.',
+        descriptionEn: 'Questions organized by exam sections and modules.',
+        icon: 'LayoutDashboard'
+      },
+      {
+        titleEs: 'Progreso en Tiempo Real',
+        titleEn: 'Real-time Progress',
+        descriptionEs: 'Seguimiento visual del avance por módulo y respuestas comprobadas.',
+        descriptionEn: 'Visual tracking of module progress and checked answers.',
+        icon: 'ChartLine'
+      },
+      {
+        titleEs: 'Práctica Guiada',
+        titleEn: 'Guided Practice',
+        descriptionEs: 'Opciones de respuesta múltiples con consejos para navegar el simulador.',
+        descriptionEn: 'Multiple-choice answers with tips to navigate the simulator.',
+        icon: 'CheckCircle'
+      }
+    ],
+    link: 'https://google-certification-questions.vercel.app/',
+    status: 'finished',
+    year: 2026,
+  },
+  {
     id: 'interseguro-product-calculator',
     titleEs: 'Calculadora de Productos Interseguro',
     titleEn: 'Interseguro Product Calculator',
