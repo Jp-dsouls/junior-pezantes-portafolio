@@ -2,6 +2,45 @@ import type { Project } from './types';
 
 export const projects: Project[] = [
   {
+    id: 'interseguro-product-calculator',
+    titleEs: 'Calculadora de Productos Interseguro',
+    titleEn: 'Interseguro Product Calculator',
+    descriptionEs: 'Calculadora interactiva que recomienda productos de inversión y ahorro de Interseguro según el perfil financiero del usuario.',
+    descriptionEn: 'Interactive calculator that recommends Interseguro investment and savings products based on the user financial profile.',
+    descriptionLongEs: 'Aplicación web que guía al usuario con preguntas simples para descubrir el producto de inversión y ahorro ideal de Interseguro. Ofrece recomendaciones personalizadas en menos de 2 minutos, con una experiencia responsive optimizada en Vercel.',
+    descriptionLongEn: 'Web app that guides users through simple questions to discover the ideal Interseguro investment and savings product. Delivers personalized recommendations in under 2 minutes, with a responsive experience optimized on Vercel.',
+    technologies: ['React', 'Tailwind CSS', 'Base UI', 'Lucide', 'Vercel', 'Vercel Analytics', 'Priority Hints'],
+    image: '/projects/interseguro-product-calculator.webp',
+    mobileImage: '/projects/interseguro-product-calculator-mobile.webp',
+    images: ['/projects/interseguro-product-calculator.webp'],
+    features: [
+      {
+        titleEs: 'Rápido',
+        titleEn: 'Fast',
+        descriptionEs: 'Obtén tu recomendación en menos de 2 minutos.',
+        descriptionEn: 'Get your recommendation in under 2 minutes.',
+        icon: 'Zap'
+      },
+      {
+        titleEs: 'Personalizado',
+        titleEn: 'Personalized',
+        descriptionEs: 'Basado en tu perfil financiero único.',
+        descriptionEn: 'Based on your unique financial profile.',
+        icon: 'TrendingUp'
+      },
+      {
+        titleEs: 'Confiable',
+        titleEn: 'Reliable',
+        descriptionEs: 'Recomendaciones de Interseguro verificadas.',
+        descriptionEn: 'Verified Interseguro recommendations.',
+        icon: 'ShieldCheck'
+      }
+    ],
+    link: 'https://interseguro-product-calculator.vercel.app/',
+    status: 'finished',
+    year: 2026,
+  },
+  {
     id: 'christian-photography',
     titleEs: 'Photographer',
     titleEn: 'Photographer',
